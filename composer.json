@@ -1,0 +1,35 @@
+{
+    "name": "wormhit/Paginator",
+    "description": "zf2 module overrides Zend\\Paginator\\Paginator to allow to use setTotalItemCount()",
+    "license": "Apache-2.0",
+    "type": "library",
+    "keywords": [
+        "Paginator",
+        "SQL_CALC_FOUND_ROWS",
+        "FOUND_ROWS",
+        "FOUND_ROWS()",
+        "setTotalItemCount",
+        "totalItemCount",
+        "zf2",
+        "zend framework 2"
+    ],
+    "homepage": "https://github.com/wormhit/Paginator",
+    "authors": [
+        {
+            "name": "Andrejs Stepanovs",
+            "email": "andrejsstepanovs@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "zendframework/zendframework": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Paginator": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
